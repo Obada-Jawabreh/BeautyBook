@@ -191,7 +191,7 @@ function StickyNavbar() {
 
           {/* Register Button inside Hamburger Menu */}
           {isAuthenticated && !user?.requests?.length && (
-            <div className="block w-full text-center mt-4 md:mt-0">
+            <div className="block w-full text-center mt-4 ml-16 md:mt-0">
               <Link to="/Request">
                 <button
                   type="button"
